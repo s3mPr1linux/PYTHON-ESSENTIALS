@@ -24,14 +24,13 @@ __autor__   = "SL"
 __license__ = "Unlicense"
 
 import os
-import sys
 
 """
 if __name__ == "__main__":
     print("Hello, World!")
 """
 
-#export LANG=pt_BR.utf8
+
 
 current_language = os.getenv("LANG")[:5]
 
