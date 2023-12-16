@@ -1,2 +1,2 @@
 # PYTHON-ESSENTIALS
-Repo do Python Essentials
+Recort do Python Base Linux Tips
