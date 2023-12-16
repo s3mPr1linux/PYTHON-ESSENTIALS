@@ -17,9 +17,31 @@ Execução:
     ./hello.py
 
 """
+#Meta dados
+
 __version__ = "0.0.1"
 __autor__   = "SL"
 __license__ = "Unlicense"
 
-print("Hello, World!")
+import os
+import sys
+
+"""
+if __name__ == "__main__":
+    print("Hello, World!")
+"""
+
+#export LANG=pt_BR.utf8
+
+current_language = os.getenv("LANG")[:5]
+
+msg = "Hello, World!"
+
+if current_language == "pt_BR":
+    msg = "Olá, Mundo!"
+elif current_language == "it_IT":
+    msg = "Ciao, Mondo!"
+    
+print(msg)
+
 
